@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 88);
+  
+}
+p {
+    line-height: 1.5em;
+    font-size: 16px;
+}
+article {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    text-align: justify;
+    background-color: white;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(43, 43, 88);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+h3 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   background-color: rgb(47, 47, 95);
+   color: white;
+   padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    background-color: rgb(41, 41, 100);
+    color: white;
+    font-family: arial;
+    padding: 8px;
+    border: 3px solid;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
