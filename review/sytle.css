@@ -4,8 +4,12 @@ html {
 body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(22, 22, 88);
+   
   
+}
+main {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     line-height: 1.5em;
@@ -21,14 +25,16 @@ article {
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(43, 43, 88);
-    color: white;
+    background-color: white;
+    color: darkslategray;
     padding: 10px;
     text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
 }
 h3 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-   background-color: rgb(47, 47, 95);
+   background-color:rgb(64, 104, 104);
    color: white;
    padding: 5px;
 }
@@ -39,7 +45,7 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    background-color: rgb(41, 41, 100);
+    background-color: rgb(52, 94, 94);
     color: white;
     font-family: arial;
     padding: 8px;
