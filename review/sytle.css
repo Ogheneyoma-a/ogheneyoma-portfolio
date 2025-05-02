@@ -53,3 +53,33 @@ nav ul li a {
     text-decoration: none;
     margin-bottom: 3px;
 }
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+th {
+    text-align: left;
+}
+
+table{
+    border-spacing: 30px;
+}
+
+tr:nth-last-child {
+    background-color: blue;
+    border-bottom: 1px solid #ddd;
+}
